@@ -1,0 +1,50 @@
+/* Folha de estilo do App */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    background-color: #2d2d2d;
+    color: #FFFFFF;
+    font-family: 'Montserrat',sans-serif;
+    
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh; /*Viewport height */
+}
+
+button{
+    font-size: 20px;
+    margin: 15px;
+    padding: 20px;
+    background: #ca7373; 
+    color: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover{ 
+    background: #FFFFFF;
+    color: #ca7373;
+    border: 3px solid #ca7373;
+    transform: scale(1.1)
+}
+
+img{
+    width: 128px;
+    border-radius: 64px;
+    margin: 5px;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+}
+
+label, select {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
